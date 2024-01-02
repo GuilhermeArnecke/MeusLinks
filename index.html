@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="light">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,36 +48,66 @@
       <div id="container-info">
         <div class="info">
           <div class="header-info">
-            <img src="./assets/map-pin.svg" alt="ícone de mapa" />
+            <div class="effect">
+              <a
+                href="https://maps.app.goo.gl/AyGrPMLHZFQUp98F7"
+                target="_blank"
+              >
+                <img src="./assets/map-pin.svg" alt="ícone de mapa" />
+              </a>
+            </div>
             <span class="infoicon">Onde eu moro</span>
           </div>
           <span class="text">Pinhalzinho, SC</span>
         </div>
         <div class="info">
           <div class="header-info">
-            <img src="./assets/book-open.svg" alt="ícone de livro aberto" />
+            <div class="effect">
+              <a
+                href="https://maps.app.goo.gl/qd4pMruVzxHbqsiV7"
+                target="_blank"
+              >
+                <img src="./assets/book-open.svg" alt="ícone de livro aberto" />
+              </a>
+            </div>
             <span class="infoicon">Onde estudo</span>
           </div>
           <span class="text">Horus Faculdades</span>
         </div>
         <div class="info">
           <div class="header-info">
-            <img src="./assets/briefcase.svg" alt="ícone de maleta" />
+            <div class="effect">
+              <a
+                href="https://maps.app.goo.gl/WTP4AFctTVXpPdh69"
+                target="_blank"
+              >
+                <img src="./assets/briefcase.svg" alt="ícone de maleta" />
+              </a>
+            </div>
             <span class="infoicon">Onde trabalho</span>
           </div>
           <span class="text">eTriax</span>
         </div>
         <div class="info">
           <div class="header-info">
-            <img src="./assets/calendar.svg" alt="ícone calendário"/>
+            <a href="#">
+              <img src="./assets/calendar.svg" alt="ícone calendário" />
+            </a>
             <span class="infoicon">Minha idade</span>
           </div>
           <span class="text">17 anos</span>
         </div>
       </div>
-      <!-- <footer>
+      <div id="botao">
+        <div id="switch" onclick=toggleMode()>
+          <button></button>
+          <samp> </samp>
+        </div>
+      </div>
+      <footer>
         © 2023 - Guilherme Arnecke
-      </footer> -->
+      </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
